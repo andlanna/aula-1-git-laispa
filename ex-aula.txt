@@ -1,0 +1,29 @@
+# Aula 1 -Exercícios 
+# Laís Portela de Aguiar-190046848
+
+1- Explicando os comandos git
+
+ * git init: Cria a estrutura do repositorio.
+
+ * git clone: Clona um repositório remoto para desenvolver localmente. Digita-se o comando com uma url logo em seguida.
+
+ * git branch: Serve para listar todas as branches(alterações) do repositório.
+
+ * git checkout Cria uma branch nova. Usando o 'git chekout' branch(o nome) você muda de branch.
+ Já usando 'git chekout -b -branch' vc cria e muda para ela.
+
+ * git fetch: Busca as alterações mais recentes da branch atual armazenadas remotamente.Usando 'git fetch--all' é buscada todas as alterações feitas.
+
+ *git pull: Busca as alterações do repositório remoto e as incorpora no local.
+
+ * git add: Adiciona todas as mudanças feitas nos arquivos do diretório, como a criaçãode um arquivo, por exemplo.
+
+ * Git commit : Ele"sinaliza" todas as mudanças feitas no reposítorio. Nele você pode comentar sobre suas alterações, 
+ e te oferece dados como os branches onde foram feitas.Usando o 'git Commit -m"mensagem"' você escreve sua nota diretamente.
+
+ * git push: Envia o commit (as mudanças feitas) ao repositório remoto.
+
+2- Diferenciaçãodos comandos git pull e git fetch
+
+ O git pull trás as alterações armazenadas remotamente. Essas alterações são implementadas no meu working directory, alterando o diretório de trabalho.
+ Já o git fetchtrás as alterações sem implementar ou mudar o meu working. É como uma visualização.
